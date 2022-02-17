@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+header img {
+  width: 200px;
+}
+li {
+  display: inline;
+  margin-right: 20px;
+}
+li a {
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#intro {
+  text-align: center;
+}
+
+#intro > h1 {
+  color: tomato;
+}
+#intro p {
+  text-align: left;
+  width: 88%;
+  margin: 30px auto;
+}
+#contact {
+  text-align: center;
+  background-color: red;
+  width: 90%;
+  margin: auto;
+}
+#contact h1 {
+  color: white;
+}
+input {
+  width: 40%;
+}
+textarea {
+  margin-left: 120px;
+}
